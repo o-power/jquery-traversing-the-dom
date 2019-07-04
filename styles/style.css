@@ -1,3 +1,12 @@
+#btn-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: green;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 #container {
     display: flex;
     flex-flow: row wrap;
@@ -17,10 +26,26 @@
     border: 1px solid black;
 }
 
+p {
+    flex: 1 0 auto;
+}
+
 button {
     margin: 10px;
 }
 
-p {
-    flex: 1 0 auto;
+.makeRed {
+    background-color: red;
+}
+
+.makeBlue {
+    background-color: blue;
+}
+
+.highlight {
+    background-color: orange;    
+}
+
+.biggerFont {
+    font-size: 3em;
 }
